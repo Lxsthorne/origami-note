@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="lxsthorne" />
+  <title>Origami Note</title>
+  <link rel="stylesheet" href="ori_note.css" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800" rel="stylesheet">
+  <script src="ori_note.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <header>
+    <h1 id="site-name">origami<span style="color:white">note</span></h1>
+  </header>
+  <main>
+    <p>Write a note and we'll encode. Have a secret? We'll unfold.</p>
+    <input type="text" id="message" onchange="getStr()" name="message"/>
+    <button type ="button" id=#enter onclick="rot13(str)">enter</button>
+    <p id="output"></p>
+  </main>
+</body>
+</html>
