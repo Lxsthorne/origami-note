@@ -19,11 +19,13 @@ header {
   color: hsl(10, 90%, 50%);
   vertical-align: baseline;
 }
-#icon {
-  height: 24px;
-  width: 24px;
+h1 .fa-paper-plane {
+  position: relative;
   margin-left: 2px;
-  transform: rotate(20deg);
+  transform: rotate(29deg);
+  font-size: 24px;
+  vertical-align: super;
+  top: 6px;
 }
 li {
   position: relative;
@@ -82,5 +84,11 @@ a.hover:hover {
 @media (max-width: 1199px) {
   main {
     border: none;
+  }
+    li {
+    right: 16px;
+  }
+  a.hover {
+    color: gold;
   }
 }
